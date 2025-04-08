@@ -4,12 +4,11 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char estado[1], cidade[50];
+    char estado[50], cidade[50];
     int codcidade,populacao, pontosturisticos;
     float pib, area;
 
@@ -21,7 +20,7 @@ int main() {
     printf ("Cadastro de Cartas Super Trunfo \n\n");
 
     printf ("Digite a letra correspondente ao Estado: \n" );
-    scanf ("%s", %estado);
+    scanf ("%c", &estado);
 
     printf ("Digite um código para a cidade: \n" );
     scanf ("%d", &codcidade);
@@ -29,17 +28,17 @@ int main() {
     printf ("Digite um nome de cidade: \n" );
     scanf ("%s", &cidade);
 
-    printf ("Digite a população dia cidade:\n" );
+    printf ("Digite a população da cidade:\n" );
     scanf ("%d", &populacao);
 
-    printf ("Digite a área em km2: \n" );
+    printf ("Digite a área em km2: \n");
     scanf ("%f", &area);
 
     printf ("Digite o PIB(produto interno bruto) para a cidade: \n" );
     scanf ("%f", &pib);
 
-    printf ("Digite o número de pontos turísticos: \n" );
-    scanf ("%d", &pontosturisticos);
+    printf("Digite o número de pontos turísticos:\n");
+    scanf("%d", &pontosturisticos);
 
     
 
@@ -50,8 +49,14 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Dados da primeira carta:\n\n");
-    printf("Estado:%d %s \n",estado, codcidade);
+    printf("Dados da Carta 1:\n\n");
+    printf("Estado:%s  \n",estado);
+    printf("Código:%d  \n",codcidade);
+    printf("Nome da Cidade :%s  \n",cidade);
+    printf("População:%d  \n",populacao);
+    printf("Área:%.2f  Km2\n",area);
+    printf("PIB:R$ %.2f  \n",pib);
+    printf("Pontos Turísticos :%d  \n",pontosturisticos);
 
     return 0;
 }
