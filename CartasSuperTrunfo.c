@@ -50,13 +50,13 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf("Dados da Carta 1:\n\n");
-    printf("Estado:%s  \n",estado);
-    printf("Código:%d  \n",codcidade);
-    printf("Nome da Cidade :%s  \n",cidade);
-    printf("População:%d  \n",populacao);
-    printf("Área:%.2f  Km2\n",area);
-    printf("PIB:R$ %.2f  \n",pib);
-    printf("Pontos Turísticos :%d  \n",pontosturisticos);
+    printf("Estado:  %s  \n", estado);
+    printf("Código:  %d  \n",codcidade);
+    printf("Nome da Cidade:  %s  \n",cidade);
+    printf("População:  %d  \n",populacao);
+    printf("Área:  %.2f  Km2\n",area);
+    printf("PIB:  R$ %.2f  bilhões\n",pib);
+    printf("Pontos Turísticos :  %d  \n",pontosturisticos);
 
     return 0;
 }
