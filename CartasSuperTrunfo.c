@@ -88,8 +88,8 @@ int main() {
     printf("Código:  %d  \n",codcidade1);
     printf("Nome da Cidade:  %s  \n",cidade1);
     printf("População:  %d  \n",populacao1);
-    printf("Área:  %.2f  Km2\n",area1);
-    printf("PIB:  R$ %.2f  bilhões\n",pib1);
+    printf("Área:  %f  Km2\n",area1);
+    printf("PIB:  R$ %f  bilhões\n",pib1);
     printf("Pontos Turísticos :  %d  \n\n\n",pontosturisticos1);
 
     //Carta 2 - Saída de Dados
@@ -99,8 +99,8 @@ int main() {
     printf("Código:  %d  \n",codcidade2);
     printf("Nome da Cidade:  %s  \n",cidade2);
     printf("População:  %d  \n",populacao2);
-    printf("Área:  %.2f  Km2\n",area2);
-    printf("PIB:  R$ %.2f  bilhões\n",pib2);
+    printf("Área:  %f  Km2\n",area2);
+    printf("PIB:  R$ %f  bilhões\n",pib2);
     printf("Pontos Turísticos :  %d  \n",pontosturisticos2);
 
     return 0;
