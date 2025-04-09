@@ -18,6 +18,8 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     printf ("Cadastro de Cartas Super Trunfo \n\n");
+
+    //Carta 1 - Entrada de Dados
     printf ("Cadastro da Carta 1 \n\n");
 
 
@@ -42,6 +44,8 @@ int main() {
 
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &pontosturisticos1);
+
+    //carta2 - Entrada de Dados
 
     printf ("Cadastro da Carta 2 \n\n");
 
@@ -77,6 +81,8 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+    //Carta 1 - Saída de dados
+
     printf("Dados da Carta 1:\n\n");
     printf("Estado:  %s  \n", estado1);
     printf("Código:  %d  \n",codcidade1);
@@ -85,6 +91,8 @@ int main() {
     printf("Área:  %.2f  Km2\n",area1);
     printf("PIB:  R$ %.2f  bilhões\n",pib1);
     printf("Pontos Turísticos :  %d  \n\n\n",pontosturisticos1);
+
+    //Carta 2 - Saída de Dados
 
     printf("Dados da Carta 2:\n\n");
     printf("Estado:  %s  \n", estado2);
