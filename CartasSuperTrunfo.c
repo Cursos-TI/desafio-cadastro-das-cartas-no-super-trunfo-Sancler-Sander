@@ -20,7 +20,7 @@ int main() {
     printf ("Cadastro de Cartas Super Trunfo \n\n");
 
     //Carta 1 - Entrada de Dados
-    printf ("Cadastro da Carta 1 \n\n");
+    printf ("Cadastro da Carta 1: \n\n");
 
 
 
@@ -46,11 +46,11 @@ int main() {
     scanf("%d", &pontosturisticos1);
 
     pib_per_capita1 = pib1 / populacao1;
-    densidade_pop1 = populacao1/ area1;
+    densidade_pop1 = area1/populacao1;
 
     //carta2 - Entrada de Dados
 
-    printf ("Cadastro da Carta 2 \n\n");
+    printf ("\n Cadastro da Carta 2 \n\n");
 
 
 
@@ -72,11 +72,11 @@ int main() {
     printf ("Digite o PIB(produto interno bruto) para a cidade: \n" );
     scanf ("%f", &pib2);
 
-    printf("Digite o número de pontos turísticos:\n\n\n");
+    printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &pontosturisticos2);
 
     pib_per_capita2 = pib2 / populacao2;
-    densidade_pop2 = populacao2 / area2;
+    densidade_pop2 = area2/populacao2;
 
     
 
@@ -94,11 +94,11 @@ int main() {
     printf("Código:  %d  \n",codcidade1);
     printf("Nome da Cidade:  %s  \n",cidade1);
     printf("População:  %d  \n",populacao1);
-    printf("Área:  %.2f  Km2\n",area1);
+    printf("Área:  %.3f  Km2\n",area1);
     printf("PIB:  R$ %.2f  bilhões\n",pib1);
-    printf("Pontos Turísticos :  %d  \n\n\n",pontosturisticos1);
-    printf("Pib Per Capita: %f \n", pib_per_capita1);
-    printf("Densidade Populacional: %f \n", densidade_pop1);
+    printf("Pontos Turísticos :  %d \n",pontosturisticos1);
+    printf("Pib Per Capita: R$%.2f \n", pib_per_capita1);
+    printf("Densidade Populacional: %f \n\n\n\n", densidade_pop1);
 
     //Carta 2 - Saída de Dados
 
