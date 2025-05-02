@@ -100,9 +100,9 @@ int main() {
     printf("Pib Per Capita: R$%.2f \n", pib_per_capita1);
     printf("Densidade Populacional: %f \n\n\n\n", densidade_pop1);
 
-    unsigned long int super_poder_carta_1 = populacao1+area1+pib1+pontosturisticos1+pib_per_capita1-densidade_pop1;
+    unsigned long int super_poder_carta_1 = (populacao1+area1+pib_per_capita1)+(area1/populacao1);
 
-    printf("Super Poder: %li /n", super_poder_carta_1);
+    printf("Super Poder Carta 1 : %u /n", super_poder_carta_1);
 
     //Carta 2 - Saída de Dados
 
@@ -117,8 +117,8 @@ int main() {
     printf("Pib Per Capita: %f \n", pib_per_capita2);
     printf("Densidade Populacional: %f \n", densidade_pop2);
 
-    unsigned long int super_poder_carta_2 = populacao2+area2+pib2+pontosturisticos2+pib_per_capita1-densidade_pop2;
-    printf("Super Poder: %li /n", super_poder_carta_2);
+    unsigned long int super_poder_carta_2 = (populacao2+area2+pib_per_capita2)+(area2/populacao2);
+    printf("Super Poder: %u /n", super_poder_carta_2);
 
     //resultado comparacao das cartas
 
